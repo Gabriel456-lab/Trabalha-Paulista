@@ -45,8 +45,6 @@ O projeto foi estruturado com o auxílio do **Trello** para gerenciar o escopo d
 
 ## 👥 Integrantes da Equipe
 
-| Nome do Integrante |  Matricula |
-| :--- | :--- | :--- |
 | **Marcus Vinicius** | 01813459 | 
 | **Gabriel Andrade2** | 01803645 | 
 | **Welson Dias** | 01809689 | 
