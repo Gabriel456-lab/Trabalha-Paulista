@@ -46,7 +46,7 @@ O projeto foi estruturado com o auxílio do **Trello** para gerenciar o escopo d
 ## 👥 Integrantes da Equipe
 
 | **Marcus Vinicius** | 01813459 | 
-| **Gabriel Andrade2** | 01803645 | 
+| **Gabriel Andrade** | 01803645 | 
 | **Welson Dias** | 01809689 | 
 | **Irlania Felix** |  01808910| 
 | **Micaias Alexandre** |  01825976 | 
