@@ -1,70 +1,102 @@
-# Trabalha Paulista - Portal de Empreendedorismo e Capacitação
+# 🚀 Trabalha Paulista – Portal de Empreendedorismo e Capacitação
 
-Bem-vindo ao repositório do front-end do **Trabalha Paulista**, uma plataforma web desenvolvida para fomentar o empreendedorismo local na cidade de Paulista, conectar cidadãos a oportunidades de emprego e oferecer trilhas de capacitação profissional.
+O **Trabalha Paulista** é uma plataforma web desenvolvida com o objetivo de incentivar o empreendedorismo local, conectar cidadãos a oportunidades de emprego e disponibilizar informações sobre capacitação profissional no município de Paulista – PE.
 
-## 🚀 Sobre o Projeto
+## 📌 1. Problema
 
-O **Trabalha Paulista** nasce com o propósito de fortalecer a economia local da cidade de Paulista, servindo como uma ponte digital entre empreendedores, trabalhadores locais e oportunidades de capacitação. A interface foi pensada para ser intuitiva, acessível e responsiva, garantindo uma experiência fluida em diferentes dispositivos.
+O município de Paulista enfrenta desafios relacionados ao acesso da população a oportunidades de emprego, qualificação profissional e incentivo ao empreendedorismo local. Muitas pessoas encontram dificuldades para localizar vagas de trabalho, conhecer cursos de capacitação e divulgar seus pequenos negócios.
 
-Durante o desenvolvimento, utilizamos o **Trello** como ferramenta de gestão de projetos (metodologia ágil/Kanban) para organizar as demandas, acompanhar o fluxo de entregas (Backlog, Em Desenvolvimento, Testes e Concluído) e definir as prioridades das sprints.
+Além disso, a falta de centralização dessas informações dificulta a conexão entre trabalhadores, empreendedores e oportunidades disponíveis na região.
 
-## 🛠️ Funcionalidades do Front-End
+Diante desse cenário, surgiu a proposta de desenvolver uma plataforma digital que reúna essas informações em um único ambiente, facilitando o acesso da população às oportunidades.
 
-O protótipo/front-end conta com as seguintes telas e fluxos implementados:
+## 🎯 2. Objetivo
 
-1. **Página de Login (`/login`)**
-   * Interface de autenticação para usuários cadastrados (cidadãos e empreendedores).
-   * Validação de campos de e-mail/CPF e senha.
-   * Link de acesso rápido para as telas de cadastro e recuperação de senha.
+Desenvolver uma plataforma web que funcione como um canal de conexão entre trabalhadores, empreendedores e oportunidades de capacitação profissional.
 
-2. **Cadastro de Usuário (`/cadastro`)**
-   * Formulário intuitivo para novos usuários criarem sua conta na plataforma.
-   * Coleta de dados essenciais para perfil profissional ou de negócio local.
+O projeto busca fortalecer a economia local, incentivar a criação e o crescimento de pequenos negócios, facilitar o acesso ao mercado de trabalho e contribuir para o desenvolvimento profissional dos cidadãos de Paulista – PE.
 
-3. **Recuperação de Senha - "Esqueci minha senha" (`/esqueci-senha`)**
-   * Tela para envio de link/código de redefinição de senha via e-mail ou SMS cadastrado.
+## ⚙️ 3. Funcionalidades
 
-4. **Área Restrita (`/dashboard` ou `/painel`)**
-   * Página protegida acessível apenas após o login bem-sucedido.
-   * Visão personalizada dependendo do perfil do usuário (trabalhador em busca de vagas ou empreendedor local).
+O front-end da plataforma apresenta as seguintes funcionalidades:
 
-5. **Página de Conteúdo Temático (`/conteudo`)**
-   * Seção central dedicada a artigos, dicas de empreendedorismo local, editais, notícias da cidade de Paulista e avisos sobre cursos de capacitação.
+### 🔐 Página de Login
+- Autenticação de usuários cadastrados.
+- Campos para inserção de e-mail ou CPF e senha.
+- Validação dos campos obrigatórios.
+- Links para cadastro e recuperação de senha.
 
-6. **Logout (Saída Segura)**
-   * Mecanismo seguro de encerramento de sessão na área restrita, limpando os dados de autenticação locais e redirecionando o usuário de volta à página inicial ou de login.
+### 📝 Cadastro de Usuário
+- Formulário para criação de novas contas.
+- Coleta de informações pessoais e profissionais.
+- Identificação do perfil do usuário como trabalhador ou empreendedor.
 
-## 🧩 Organização e Metodologia (Trello)
+### 🔑 Recuperação de Senha
+- Tela destinada aos usuários que esqueceram suas senhas.
+- Interface para solicitação de recuperação de acesso.
 
-O projeto foi estruturado com o auxílio do **Trello** para gerenciar o escopo de entregas do front-end. As colunas principais utilizadas no nosso quadro foram:
-* **Backlog:** Ideias e requisitos iniciais das telas e fluxos.
-* **A Fazer (To Do):** Tarefas priorizadas para a sprint atual.
-* **Em Desenvolvimento (Doing):** Telas e componentes sendo codificados (HTML, CSS, JavaScript).
-* **Em Revisão / Testes:** Validação de responsividade, usabilidade e fluxo de login/logout.
-* **Concluído (Done):** Funcionalidades finalizadas e integradas.
+### 📊 Painel do Usuário
+- Área restrita para usuários autenticados.
+- Apresentação de informações conforme o perfil cadastrado.
+- Acesso às funcionalidades disponíveis na plataforma.
 
-## 👥 Integrantes da Equipe
+### 📚 Conteúdos e Oportunidades
+- Divulgação de informações sobre empreendedorismo.
+- Dicas para pequenos negócios.
+- Notícias e informações relacionadas ao município de Paulista.
+- Divulgação de cursos e oportunidades de capacitação profissional.
 
-| **Marcus Vinicius** | 01813459 | 
-| **Gabriel Andrade** | 01803645 | 
-| **Welson Dias** | 01809689 | 
-| **Irlania Felix** |  01808910| 
-| **Micaias Alexandre** |  01825976 | 
+### 🚪 Logout
+- Opção para encerrar a sessão do usuário.
+- Redirecionamento para a página inicial ou de login.
 
-## ⚙️ Tecnologias Utilizadas
+## 🛠️ 4. Tecnologias Utilizadas
 
-* **HTML5 / CSS3:** Estruturação semântica e estilização moderna.
-* **JavaScript:** Manipulação de eventos, simulação de rotas protegidas e controle de sessão.
+- **HTML5:** Utilizado para estruturar as páginas e organizar os elementos da aplicação.
+- **CSS3:** Responsável pela estilização das interfaces, criação de layouts e adaptação para diferentes dispositivos.
+- **JavaScript:** Utilizado para implementar interações, validações de formulários e funcionalidades de navegação.
+- **Trello:** Utilizado para organizar e acompanhar as atividades do projeto por meio da metodologia Kanban.
 
-## 📥 Como Executar o Projeto
+### 📋 Organização do Projeto (Trello)
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/Gabriel456-lab/Trabalha-Paulista
-   ```
-2. Abra a pasta do projeto no seu editor de código favorito (ex: VS Code).
-3. Abra o arquivo principal (`index.html`) no navegador ou utilize uma extensão como o *Live Server*.
+As atividades foram organizadas nas seguintes etapas:
+- Backlog;
+- A Fazer;
+- Em Desenvolvimento;
+- Em Revisão/Testes;
+- Concluído.
 
-## 🤝 Contribuição
+## 👥 5. Integrantes
 
-Projeto desenvolvido com foco no impacto social e econômico do município de Paulista-PE. Sugestões e melhorias são sempre bem-vindas através de *Pull Requests* ou abertura de *Issues*.
+| Integrante | Matrícula |
+|---|---|
+| Marcus Vinicius | 01813459 |
+| Gabriel Andrade | 01803645 |
+| Welson Dias | 01809689 |
+| Irlania Felix | 01808910 |
+| Micaias Alexandre | 01825976 |
+
+## ▶️ 6. Instruções de Execução
+
+### Pré-requisitos
+- Navegador web (Google Chrome, Firefox ou outro).
+- Editor de código, preferencialmente Visual Studio Code.
+- Extensão Live Server (opcional).
+
+### Passo a passo
+
+**1. Clone o repositório:**
+
+```bash
+git clone https://github.com/Gabriel456-lab/Trabalha-Paulista.git
+```
+**2. Abra a pasta no Visual Studio Code.**
+
+**3. Execute o projeto:**<br> -Localize o arquivo index.html.<br> -Clique com o botão direito sobre ele.<br> -Selecione a opção Open with Live Server, caso possua a extensão instalada.<br> Também é possível abrir diretamente o arquivo index.html no navegador.
+
+## 📌 7. Considerações Finais
+O Trabalha Paulista busca utilizar a tecnologia como ferramenta de transformação social e econômica, aproximando cidadãos de oportunidades profissionais e incentivando o empreendedorismo local.
+
+A iniciativa pretende contribuir para o fortalecimento da economia do município de Paulista – PE, facilitando o acesso à informação, à capacitação profissional e ao mercado de trabalho.
+
+Projeto acadêmico desenvolvido com foco no desenvolvimento econômico, profissional e social do município de Paulista – PE.
