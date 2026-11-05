@@ -79,12 +79,12 @@ As atividades foram organizadas nas seguintes etapas:
 
 ## ▶️ 6. Instruções de Execução
 
-### Pré-requisitos
+### Pré-requisitos.
 - Navegador web (Google Chrome, Firefox ou outro).
 - Editor de código, preferencialmente Visual Studio Code.
 - Extensão Live Server (opcional).
 
-### Passo a passo
+### Passo a passo.
 
 **1. Clone o repositório:**
 
@@ -97,3 +97,7 @@ git clone https://github.com/Gabriel456-lab/Trabalha-Paulista.git
 
 ## 📌 7. Considerações Finais
 O Trabalha Paulista busca utilizar a tecnologia como ferramenta de transformação social e econômica, aproximando cidadãos de oportunidades profissionais e incentivando o empreendedorismo local.
+
+A iniciativa pretende contribuir para o fortalecimento da economia do município de Paulista – PE, facilitando o acesso à informação, à capacitação profissional e ao mercado de trabalho.
+
+Projeto acadêmico desenvolvido com foco no desenvolvimento econômico, profissional e social do município de Paulista – PE.
