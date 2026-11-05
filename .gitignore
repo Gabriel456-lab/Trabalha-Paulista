@@ -1,28 +1,21 @@
-# Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Arquivos temporários
 *.tmp
 *.log
 *.bak
 
-# Configurações pessoais de editores
 .vscode/
 .idea/
 
-# Dependências do Node.js (caso sejam utilizadas)
 node_modules/
 
-# Arquivos de ambiente e informações confidenciais
 .env
 .env.local
 .env.*.local
 
-# Arquivos de build e distribuição
 dist/
 build/
 
-# Arquivos de cache
 .cache/
