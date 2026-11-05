@@ -55,6 +55,7 @@ O front-end da plataforma apresenta as seguintes funcionalidades:
 - **HTML5:** Utilizado para estruturar as páginas e organizar os elementos da aplicação.
 - **CSS3:** Responsável pela estilização das interfaces, criação de layouts e adaptação para diferentes dispositivos.
 - **JavaScript:** Utilizado para implementar interações, validações de formulários e funcionalidades de navegação.
+- **React:** Utilizado para criar a interface de usuário reativa, gerenciando o estado e componentes reutilizáveis de forma eficiente.
 - **Trello:** Utilizado para organizar e acompanhar as atividades do projeto por meio da metodologia Kanban.
 
 ### 📋 Organização do Projeto (Trello)
@@ -96,7 +97,3 @@ git clone https://github.com/Gabriel456-lab/Trabalha-Paulista.git
 
 ## 📌 7. Considerações Finais
 O Trabalha Paulista busca utilizar a tecnologia como ferramenta de transformação social e econômica, aproximando cidadãos de oportunidades profissionais e incentivando o empreendedorismo local.
-
-A iniciativa pretende contribuir para o fortalecimento da economia do município de Paulista – PE, facilitando o acesso à informação, à capacitação profissional e ao mercado de trabalho.
-
-Projeto acadêmico desenvolvido com foco no desenvolvimento econômico, profissional e social do município de Paulista – PE.
