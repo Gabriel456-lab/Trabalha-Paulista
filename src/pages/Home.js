@@ -1,11 +1,8 @@
 import React from 'react';
+import SecaoPrin from '../components/SecaoPrin';
 
 function Home() {
-  return (
-    <div>
-      <p>Conteúdo aqui!!!!</p>
-    </div>
-  );
+  return <SecaoPrin />;
 }
 
 export default Home;
