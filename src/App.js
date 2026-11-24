@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 
 // Importando componentes
 import Navbar from './components/Navbar';
@@ -12,10 +12,20 @@ import Logoff from './pages/Logoff';
 function App() {
   return (
     <BrowserRouter>
-      {/* O Navbar fica fora das Routes para aparecer em todas as páginas, PRESTEM ATENÇÃO!!!*/}
-      <Navbar />
+      <AppConteudo />
+    </BrowserRouter>
+  );
+}
 
-      <div style={{ padding: '20px' }}>
+function AppConteudo() {
+  const location = useLocation();
+  const paginaLogin = location.pathname === '/login';
+
+  return (
+    <>
+      {!paginaLogin && <Navbar />}
+
+      <div className={paginaLogin ? '' : 'p-5'}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
@@ -24,7 +34,7 @@ function App() {
           <Route path="/logoff" element={<Logoff />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
