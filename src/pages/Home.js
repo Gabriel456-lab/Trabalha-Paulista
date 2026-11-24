@@ -4,7 +4,6 @@ import cidade from '../img/cidade.svg';
 import cta from '../img/cta.svg';
 import logo from '../img/logo.svg';
 
-/* Home - Trabalha Paulista (sem navbar: use a sua) */
 const IMG = { hero, cidade, cta };
 
 const C = {
