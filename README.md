@@ -21,19 +21,18 @@ O projeto busca fortalecer a economia local, incentivar a criação e o crescime
 O front-end da plataforma apresenta as seguintes funcionalidades:
 
 ### 🔐 Página de Login
-- Autenticação de usuários cadastrados.
-- Campos para inserção de e-mail ou CPF e senha.
-- Validação dos campos obrigatórios.
-- Links para cadastro e recuperação de senha.
+- Autenticação demonstrativa por e-mail, senha e tipo de conta.
+- Sessão mantida no navegador, com opção “Lembrar de mim”.
+- Acesso à área de vagas para candidatos e à área de contratação para empresas.
 
 ### 📝 Cadastro de Usuário
-- Formulário para criação de novas contas.
-- Coleta de informações pessoais e profissionais.
-- Identificação do perfil do usuário como trabalhador ou empreendedor.
+- Formulário para cadastro de candidato (CPF) ou empresa (CNPJ).
+- Contas demonstrativas armazenadas no `localStorage` do navegador.
+- Validação de e-mail duplicado e dos campos obrigatórios.
 
 ### 🔑 Recuperação de Senha
-- Tela destinada aos usuários que esqueceram suas senhas.
-- Interface para solicitação de recuperação de acesso.
+- Verificação do e-mail cadastrado e alteração local da senha.
+- Não envia e-mail ou código de confirmação.
 
 ### 📊 Painel do Usuário
 - Área restrita para usuários autenticados.
@@ -41,14 +40,13 @@ O front-end da plataforma apresenta as seguintes funcionalidades:
 - Acesso às funcionalidades disponíveis na plataforma.
 
 ### 📚 Conteúdos e Oportunidades
-- Divulgação de informações sobre empreendedorismo.
-- Dicas para pequenos negócios.
-- Notícias e informações relacionadas ao município de Paulista.
-- Divulgação de cursos e oportunidades de capacitação profissional.
+- Página inicial com áreas profissionais, vagas demonstrativas, etapas, dicas, perguntas frequentes e seção para empresas.
+- Navegação suave entre as seções da página inicial.
 
 ### 🚪 Logout
-- Opção para encerrar a sessão do usuário.
-- Redirecionamento para a página inicial ou de login.
+- Opções para encerrar a sessão ou excluir a conta salva neste navegador.
+
+> **Limitação do protótipo:** a autenticação e os dados ficam somente no navegador e não oferecem segurança de produção. As senhas ficam em texto no `localStorage`; a redefinição não confirma a posse do e-mail. Não use dados reais. Para produção, substitua este fluxo por uma API com armazenamento seguro e recuperação de senha verificada.
 
 ## 🛠️ 4. Tecnologias Utilizadas
 
@@ -82,7 +80,7 @@ As atividades foram organizadas nas seguintes etapas:
 ### Pré-requisitos.
 - Navegador web (Google Chrome, Firefox ou outro).
 - Editor de código, preferencialmente Visual Studio Code.
-- Extensão Live Server (opcional).
+- Node.js e npm.
 
 ### Passo a passo.
 
@@ -91,9 +89,19 @@ As atividades foram organizadas nas seguintes etapas:
 ```bash
 git clone https://github.com/Gabriel456-lab/Trabalha-Paulista.git
 ```
-**2. Abra a pasta no Visual Studio Code.**
+**2. Abra a pasta no Visual Studio Code e instale as dependências:**
 
-**3. Execute o projeto:**<br> -Localize o arquivo index.html.<br> -Clique com o botão direito sobre ele.<br> -Selecione a opção Open with Live Server, caso possua a extensão instalada.<br> Também é possível abrir diretamente o arquivo index.html no navegador.
+```bash
+npm install
+```
+
+**3. Inicie o servidor de desenvolvimento:**
+
+```bash
+npm start
+```
+
+O aplicativo estará disponível em `http://localhost:3000`.
 
 ## 📌 7. Considerações Finais
 O Trabalha Paulista busca utilizar a tecnologia como ferramenta de transformação social e econômica, aproximando cidadãos de oportunidades profissionais e incentivando o empreendedorismo local.
